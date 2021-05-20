@@ -4,7 +4,7 @@
       <div class="row valign-wrapper">
         <div class="col s12">
           <form @submit.prevent="loginUser">
-            <h2>Bienvenue sur Pringo</h2>
+            <h2>Bienvenue sur Pringo Démo !</h2>
             <p>(Veuillez vous connecter pour envoyer vos fichiers)</p>
             <br /><br />
             <h4>Connexion</h4>
