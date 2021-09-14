@@ -1,6 +1,7 @@
 <template>
   <div>
       <sidebar-menu :menu="menu" />
+      <UserProfilComponent/>
   </div>
 </template>
 
