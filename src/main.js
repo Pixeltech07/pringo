@@ -9,7 +9,7 @@ import VueSidebarMenu from 'vue-sidebar-menu'
 import 'vue-sidebar-menu/dist/vue-sidebar-menu.css'
 
 const base = axios.create({
-  baseURL: "http://localhost:3000"
+  baseURL: "http://51.38.224.116:3000"
 });
 
 Vue.prototype.$http = base;
