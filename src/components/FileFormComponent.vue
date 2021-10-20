@@ -107,7 +107,7 @@
 import axios from "axios";
 import swal from "sweetalert";
 
-const API_ENDPOINT = "http://localhost:3000/api/upload";
+const API_ENDPOINT = "http://51.38.224.116:3000/api/upload";
 
 export default {
   name: "FileFormComponent",
