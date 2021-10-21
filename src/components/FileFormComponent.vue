@@ -167,7 +167,7 @@ export default {
           return res.json(err);
         }
       } catch (success) {
-        swal("Success", "Le formulaire à été envoyé !", "success");
+        swal("Success", "Le formulaire à été envoyé !!!", "success");
         this.$router.push("/success");
       }
     },
