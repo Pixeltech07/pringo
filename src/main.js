@@ -8,6 +8,7 @@ import axios from "axios";
 import VueSidebarMenu from 'vue-sidebar-menu'
 import 'vue-sidebar-menu/dist/vue-sidebar-menu.css'
 
+// change IP of server.
 const base = axios.create({
   baseURL: "http://51.38.224.116:3000"
 });
