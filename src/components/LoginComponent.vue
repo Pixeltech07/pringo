@@ -117,7 +117,7 @@ export default {
           this.$router.push("/form");
         }
       } catch (err) {
-        swal("Error", "Something Went Wrong " + this.login + "...!", "error");
+        swal("Error", "Something Went Wrong " + this.login.lastname + "...!", "error");
         console.log(this.errors);
       }
     },
